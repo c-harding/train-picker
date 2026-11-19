@@ -1,0 +1,73 @@
+{
+  "app": {
+    "heading": "Who's next?",
+    "language": "Language",
+    "languageName": "English",
+    "panel": "Show or hide the settings",
+    "title": "Who's Next Express"
+  },
+  "banner": {
+    "everyonePicked": "Everyone's had a turn. Hit “{reset}”",
+    "needName": "Add at least one name",
+    "nextStop": "Next stop: {name}!"
+  },
+  "branding": {
+    "lettering": "Carriage lettering",
+    "logo": "Logo",
+    "reset": "Reset",
+    "title": "Branding"
+  },
+  "environment": {
+    "aerial": "Aerial",
+    "camera": "Camera",
+    "clear": "Sunny",
+    "driver": "Driver",
+    "platform": "Platform",
+    "rain": "Rain",
+    "snow": "Snow",
+    "title": "Environment",
+    "weather": "Weather"
+  },
+  "fleet": {
+    "all": "All",
+    "default": "Default",
+    "title": "Fleet"
+  },
+  "people": {
+    "apply": "Update stations",
+    "homeName": "my-name",
+    "placeholder": "One name per line",
+    "reset": "Reset picks",
+    "shuffle": "Random order",
+    "skipPicked": "Skip people already picked",
+    "title": "People",
+    "yourName": "Your name"
+  },
+  "pick": {
+    "button": "Pick someone",
+    "cancelRecord": "Cancel",
+    "hint": "or press {key}",
+    "record": "⏺ Record a clip",
+    "short": "Pick",
+    "spaceKey": "Space"
+  },
+  "stock": {
+    "allegra": "RhB Allegra",
+    "apply": "Apply",
+    "carriages": "Carriages",
+    "compact": "Toy steam",
+    "desiro": "ÖBB Desiro ML",
+    "flirt": "BRB FLIRT 3",
+    "full": "Steam (DB class 64)",
+    "kiss": "ÖBB Cityjet KISS",
+    "length": "Carriage length (m)",
+    "lint": "BRB LINT",
+    "railjet": "ÖBB Railjet",
+    "reset": "Reset",
+    "rjkiss": "ÖBB Railjet KISS",
+    "s423": "S-Bahn class 423",
+    "taurus": "Taurus (class 182)",
+    "title": "Rolling stock",
+    "train": "Train"
+  }
+}

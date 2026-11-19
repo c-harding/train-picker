@@ -1,0 +1,73 @@
+{
+  "app": {
+    "heading": "Wer ist dran?",
+    "language": "Sprache",
+    "languageName": "Deutsch",
+    "panel": "Einstellungen ein- oder ausblenden",
+    "title": "Wer-ist-dran-Express"
+  },
+  "banner": {
+    "everyonePicked": "Alle waren schon dran. Klicke auf „{reset}“",
+    "needName": "Mindestens einen Namen eingeben",
+    "nextStop": "Nächster Halt: {name}!"
+  },
+  "branding": {
+    "lettering": "Wagenbeschriftung",
+    "logo": "Logo",
+    "reset": "Zurücksetzen",
+    "title": "Branding"
+  },
+  "environment": {
+    "aerial": "Luftbild",
+    "camera": "Kamera",
+    "clear": "Sonnig",
+    "driver": "Führerstand",
+    "platform": "Bahnsteig",
+    "rain": "Regen",
+    "snow": "Schnee",
+    "title": "Umgebung",
+    "weather": "Wetter"
+  },
+  "fleet": {
+    "all": "Alle",
+    "default": "Standard",
+    "title": "Fuhrpark"
+  },
+  "people": {
+    "apply": "Bahnhöfe aktualisieren",
+    "homeName": "mein-name",
+    "placeholder": "Ein Name pro Zeile",
+    "reset": "Auswahl zurücksetzen",
+    "shuffle": "Zufällige Reihenfolge",
+    "skipPicked": "Bereits Gezogene überspringen",
+    "title": "Personen",
+    "yourName": "Dein Name"
+  },
+  "pick": {
+    "button": "Jemanden auswählen",
+    "cancelRecord": "Abbrechen",
+    "hint": "oder {key} drücken",
+    "record": "⏺ Video aufnehmen",
+    "short": "Auswählen",
+    "spaceKey": "Leertaste"
+  },
+  "stock": {
+    "allegra": "RhB Allegra",
+    "apply": "Übernehmen",
+    "carriages": "Wagen",
+    "compact": "Spielzeug-Dampflok",
+    "desiro": "ÖBB Desiro ML",
+    "flirt": "BRB FLIRT 3",
+    "full": "Dampflok (BR 64)",
+    "kiss": "ÖBB Cityjet KISS",
+    "length": "Wagenlänge (m)",
+    "lint": "BRB LINT",
+    "railjet": "ÖBB Railjet",
+    "reset": "Zurücksetzen",
+    "rjkiss": "ÖBB Railjet KISS",
+    "s423": "S-Bahn BR 423",
+    "taurus": "Taurus (BR 182)",
+    "title": "Rollmaterial",
+    "train": "Zug"
+  }
+}

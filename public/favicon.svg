@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- The CALM emblem from the locomotive, reduced to its initial: a cream rounded
+       outline and a "C" on black. The C is drawn as an arc (not text) so it is
+       exactly centred, whatever fonts the browser has. -->
+  <rect width="64" height="64" rx="12" fill="#1d1e20"/>
+  <rect x="11" y="15" width="42" height="34" rx="8" fill="none" stroke="#f3ecd2" stroke-width="4"/>
+  <path d="M37.79 25.11 A9 9 0 1 0 37.79 38.89" fill="none" stroke="#f3ecd2" stroke-width="4"/>
+</svg>

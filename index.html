@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Who's Next Express</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <div class="hud">
+      <div class="hud-head">
+        <h1 data-i18n="app.heading"></h1>
+        <select id="lang" data-i18n-aria-label="app.language"></select>
+        <button id="hud-toggle" class="hud-toggle" aria-expanded="true" data-i18n-aria-label="app.panel">▾</button>
+      </div>
+      <button id="pick" class="primary"><span class="pick-full" data-i18n="pick.button"></span><span class="pick-short" data-i18n="pick.short"></span></button>
+      <p id="hint" class="hint"></p>
+      <div class="record-row">
+        <button id="record" class="full" data-i18n="pick.record"></button>
+        <button id="record-cancel" data-i18n="pick.cancelRecord" hidden></button>
+      </div>
+
+      <details id="settings">
+        <summary data-i18n="people.title"></summary>
+        <label class="field">
+          <span data-i18n="people.yourName"></span>
+          <input id="me" type="text" autocomplete="name" data-i18n-placeholder="people.homeName" />
+        </label>
+        <textarea id="names" rows="8" data-i18n-placeholder="people.placeholder"></textarea>
+        <button id="shuffle" class="full" data-i18n="people.shuffle"></button>
+        <label class="check">
+          <input type="checkbox" id="remove" />
+          <span data-i18n="people.skipPicked"></span>
+        </label>
+        <div class="row">
+          <button id="reset" data-i18n="people.reset"></button>
+          <button id="apply" class="strong" data-i18n="people.apply"></button>
+        </div>
+      </details>
+
+      <details id="rolling-stock">
+        <summary data-i18n="stock.title"></summary>
+        <label class="field">
+          <span data-i18n="stock.train"></span>
+          <select id="loco">
+            <option value="compact" data-i18n="stock.compact"></option>
+            <option value="full" data-i18n="stock.full"></option>
+            <option value="taurus" data-i18n="stock.taurus"></option>
+            <option value="railjet" data-i18n="stock.railjet"></option>
+            <option value="s423" data-i18n="stock.s423"></option>
+            <option value="flirt" data-i18n="stock.flirt"></option>
+            <option value="lint" data-i18n="stock.lint"></option>
+            <option value="desiro" data-i18n="stock.desiro"></option>
+            <option value="kiss" data-i18n="stock.kiss"></option>
+            <option value="rjkiss" data-i18n="stock.rjkiss"></option>
+            <option value="allegra" data-i18n="stock.allegra"></option>
+          </select>
+        </label>
+        <label class="field">
+          <span data-i18n="stock.carriages"></span>
+          <input id="carriages" type="number" min="1" max="12" step="1" />
+        </label>
+        <label class="field">
+          <span data-i18n="stock.length"></span>
+          <input id="carriage-length" type="number" min="8" max="30" step="0.5" />
+        </label>
+        <div class="row">
+          <button id="rolling-reset" data-i18n="stock.reset"></button>
+          <button id="rolling-apply" class="strong" data-i18n="stock.apply"></button>
+        </div>
+      </details>
+
+      <details id="branding">
+        <summary data-i18n="branding.title"></summary>
+        <label class="field">
+          <span data-i18n="branding.logo"></span>
+          <input id="emblem" type="text" maxlength="12" />
+        </label>
+        <label class="field">
+          <span data-i18n="branding.lettering"></span>
+          <input id="lettering" type="text" maxlength="40" />
+        </label>
+        <div class="row">
+          <button id="branding-reset" data-i18n="branding.reset"></button>
+        </div>
+      </details>
+
+      <details id="environment">
+        <summary data-i18n="environment.title"></summary>
+        <div class="segmented" role="radiogroup" data-i18n-aria-label="environment.weather">
+          <label><input type="radio" name="weather" value="clear" /><span data-i18n="environment.clear"></span></label>
+          <label><input type="radio" name="weather" value="snow" /><span data-i18n="environment.snow"></span></label>
+          <label><input type="radio" name="weather" value="rain" /><span data-i18n="environment.rain"></span></label>
+        </div>
+        <div class="segmented" role="radiogroup" data-i18n-aria-label="environment.camera">
+          <label><input type="radio" name="camera-view" value="aerial" /><span data-i18n="environment.aerial"></span></label>
+          <label><input type="radio" name="camera-view" value="platform" /><span data-i18n="environment.platform"></span></label>
+          <label><input type="radio" name="camera-view" value="driver" /><span data-i18n="environment.driver"></span></label>
+        </div>
+      </details>
+    </div>
+
+    <div id="banner" class="banner" hidden></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
